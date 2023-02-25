@@ -1,9 +1,9 @@
-# Math Magician
+# Math Magicians
 # 📗 Table of Contents
 
-- [Math Magician](#math-magician)
+- [Math Magicians](#math-magicians)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Math Magician\] ](#-math-magician-)
+- [📖 \[Math Magicians\] ](#-math-magicians-)
   - [🛠 Built With ](#-built-with-)
     - [🖥️ Tech Stack ](#️-tech-stack-)
     - [Key Features ](#key-features-)
@@ -23,7 +23,7 @@
   - [📝 License ](#-license-)
 
 
-# 📖 [Math Magician] <a name="about-project"></a>
+# 📖 [Math Magicians] <a name="about-project"></a>
 
 
 **Math Magiciant** is a single page react app
@@ -48,7 +48,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]()
+<!-- - [Live Demo Link]() -->
 
 Please note that the live demo link is not yet active
 
