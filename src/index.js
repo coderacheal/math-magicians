@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Home from './Components/Home';
-import Calculator from './Components/Calculator';
+// import Home from './Components/Home';
+// import Calculator from './Components/Calculator';
+import Quotes from './Components/Quotes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Home /> */}
-    <Calculator />
+    {/* <Calculator /> */}
+    <Quotes />
   </React.StrictMode>,
 );
 

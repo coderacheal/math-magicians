@@ -1,12 +1,10 @@
 import styles from '../styles/Header.module.css';
 // import styles from '../styles/TodoItem.module.css';
-const Header = () => {
-  const name ='Ama';
-  return (
-    <div className={styles.header}>
-      <div>
-        <h1 className={styles.h1}>Math Magicians</h1>
-      </div>
+const Header = () =>  (
+  <div className={styles.header}>
+    <div>
+      <h1 className={styles.h1}>Math Magicians</h1>
+      
       <div className={styles.ulDiv}>
         <ul className={styles.ul}>
           <li className={styles.li}><a href="#">Home</a></li>
@@ -16,6 +14,5 @@ const Header = () => {
       </div>
     </div>
   );
-};
 
 export default Header;
