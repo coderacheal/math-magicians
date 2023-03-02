@@ -1,17 +1,21 @@
+import styles from '../styles/Header.module.css';
+// import styles from '../styles/TodoItem.module.css';
 const Header = () => {
   const name ='Ama';
   return (
-    <div className="header">
+    <div className={styles.header}>
       <div>
-        <h1>Math Magicians</h1>
+        <h1 className={styles.h1}>Math Magicians</h1>
       </div>
-      <div>
-        <a href="#">Home</a>
-        <a href="#">Calculator</a>
-        <a href="#">Quotes</a>
+      <div className={styles.ulDiv}>
+        <ul className={styles.ul}>
+          <li className={styles.li}><a href="#">Home</a></li>
+          <li><a href="#">Calculator</a></li>
+          <li><a href="#">Quotes</a></li>
+        </ul>
       </div>
-  </div> 
-  )
-}
+    </div>
+  );
+};
 
 export default Header;
