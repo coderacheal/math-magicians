@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-import '../styles/calculator.module.css';
+import styles from '../styles/Calculator.module.css';
 import Header from './Header';
 
 const Calculator = () => {
@@ -17,7 +17,7 @@ const Calculator = () => {
   return (
     <div>
       <Header />
-      <div className="calculator">
+      <div className={styles.calculator}>
         <div className="buttons-div">
           <div className="input-field">{state.next || state.total || '0'}</div>
         </div>
