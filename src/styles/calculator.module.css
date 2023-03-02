@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .calculator {
+    width: 35%;
+    min-width: 600px;
+    margin: auto;
+  }
+  
+  .buttons-div {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  button {
+    width: 150px;
+    height: 70px;
+    border: 1px solid gray;
+    font-size: 24px;
+  }
+  
+  button:hover {
+    background-color: aliceblue;
+  }
+  
+  button:active {
+    background-color: rgb(148, 148, 217);
+    color: white;
+    font-weight: bold;
+  }
+  
+  .input-field {
+    width: 100%;
+    font-size: 50px;
+    text-align: right;
+    background-color: rgb(148, 148, 217);
+  }
+  
+  .zero {
+    width: 50%;
+  }
+  
+  .operation {
+    background-color: rgb(253, 165, 76);
+  }
