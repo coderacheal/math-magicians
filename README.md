@@ -33,8 +33,8 @@
 ### 🖥️ Tech Stack <a name="CSS"></a>
 
 - React
-- JavaScript
-- Webpack
+- Using React Routers
+
 
 
 ### Key Features <a name="Mobile Version of Portfolio"></a>
