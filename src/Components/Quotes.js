@@ -3,7 +3,6 @@ import '../styles/quotes.css';
 
 const Quotes = () => (
   <div>
-    {/* <Header /> */}
     <div className="pDiv">
       <p>
         Mathematics is not about numbers and eqautions, computations
