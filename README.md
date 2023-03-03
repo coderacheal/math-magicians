@@ -26,7 +26,7 @@
 # 📖 [Math Magicians] <a name="about-project"></a>
 
 
-**Math Magiciant** is a single page react app
+**Math Magicians** is a single page react app
 
 ## 🛠 Built With <a name="HTML"></a>
 
