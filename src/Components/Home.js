@@ -13,12 +13,7 @@ const Home = () => (
         reiciendis ipsa animi maiores! A maiores fugit voluptatum odio nostrum autem rem
         repellat? Quod unde fuga pariatur id in adipisci ex nam voluptate quis quos? Enim,
         quasi nemo! Obcaecati numquam at consectetur! Dolore ratione voluptatibus ipsam
-        facilis? Ipsam, et possimus dolor ratione expedita tempora nostrum libero! Magnam
-        tempora a eligendi ad dolorum et eaque id provident non natus, voluptate
-        necessitatibus temporibus laudantium facilis, atque blanditiis aspernatur
-        ipsum modi eius sed nobis vitae! Molestias sunt iusto quasi autem voluptatem
-        harum officia eaque sint cupiditate est optio, architecto dolores, laborum
-        laboriosam eligendi dicta iste, possimus error rem. Cupiditate ad mollitia facere ullam?
+        facilis?
       </p>
       <p className={styles.paragraph}>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit.

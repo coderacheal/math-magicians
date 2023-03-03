@@ -7,7 +7,7 @@ const Quotes = () => (
     <div className={styles.pDiv}>
       <p className={styles.p}>
         Mathematics is not about numbers and eqautions, computations
-        or algorithms: It`s about understanding. -- William Paul Thurson
+        or algorithms: It`s about understanding. -- William Paul Thurtson
       </p>
     </div>
   </div>

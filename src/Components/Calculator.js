@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import styles from '../styles/Calculator.module.css';
-// import Header from './Header';
 
 const Calculator = () => {
   const [state, setState] = useState({
@@ -16,9 +15,8 @@ const Calculator = () => {
   }
   return (
     <div>
-      {/* <Header /> */}
       <div className={styles.prompAndCalDiv}>
-        <div className={styles.doMath}><h2 className={styles.h2}>Lets do some math!</h2></div>
+        <h2 className={styles.myh2}>Let&#39;s do some math!</h2>
         <div className={styles.calInterface}>
           <div className={styles.calculator}>
             <div className={styles.buttonDiv}>
