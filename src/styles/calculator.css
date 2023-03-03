@@ -3,18 +3,17 @@
   box-sizing: border-box;
 }
 
-.calculator {
-  width: 35%;
-  min-width: 600px;
-  margin: auto;
+.calInterface {
+  width: 50%;
+  align-content: flex-end;
 }
 
-.buttons-div {
+.buttonDiv {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 button {
-  width: 150px;
+  width: 23%;
   height: 70px;
   border: 1px solid gray;
   font-size: 24px;
@@ -30,17 +29,33 @@ button:active {
   font-weight: bold;
 }
 
-.input-field {
-  width: 100%;
+.inputField {
+  width: 92%;
   font-size: 50px;
   text-align: right;
   background-color: rgb(148, 148, 217);
 }
 
 .zero {
-  width: 50%;
+  width: 46%;
 }
 
 .operation {
   background-color: rgb(253, 165, 76);
+}
+
+.prompAndCalDiv {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.myh2 {
+  margin-left: 70px;
+  font-size: 40px;
 }
