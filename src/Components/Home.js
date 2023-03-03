@@ -1,13 +1,11 @@
 import styles from '../styles/Home.module.css';
-import Header from './Header';
 
 const Home = () => (
   <div>
-    <Header />
-    <h2>Welcome to our page</h2>
+    <h2 className={styles.h2}>Welcome to our page</h2>
     <div className={styles.paraDiv}>
       <p className={styles.paragraph}>
-        LoremLorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         Voluptates consequatur nisi odio dolores inventore cum harum repudiandae
         atque asperiores deleniti adipisci soluta placeat minima cumque officiis impedit,
         quam libero laboriosam sunt. Ex labore soluta laboriosam laborum aliquam quisquam
@@ -23,7 +21,7 @@ const Home = () => (
         laboriosam eligendi dicta iste, possimus error rem. Cupiditate ad mollitia facere ullam?
       </p>
       <p className={styles.paragraph}>
-        LoremLorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         Voluptates consequatur nisi odio dolores inventore cum harum repudiandae
         atque asperiores deleniti adipisci soluta placeat minima cumque officiis impedit,
         quam libero laboriosam sunt. Ex labore soluta laboriosam laborum aliquam quisquam

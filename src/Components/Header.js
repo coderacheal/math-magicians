@@ -1,18 +1,19 @@
+import { Link } from 'react-router-dom';
 import styles from '../styles/Header.module.css';
-// import styles from '../styles/TodoItem.module.css';
-const Header = () =>  (
-  <div className={styles.header}>
-    <div>
+
+const Header = () => (
+  <div>
+    <div className={styles.header}>
       <h1 className={styles.h1}>Math Magicians</h1>
-      
       <div className={styles.ulDiv}>
         <ul className={styles.ul}>
-          <li className={styles.li}><a href="#">Home</a></li>
-          <li><a href="#">Calculator</a></li>
-          <li><a href="#">Quotes</a></li>
+          <li className={styles.li}><Link to="/">Home</Link></li>
+          <li className={styles.li}><Link to="/calculator">Calculator</Link></li>
+          <li className={styles.li}><Link to="/quotes">Quotes</Link></li>
         </ul>
       </div>
     </div>
-  );
+  </div>
+);
 
 export default Header;
