@@ -1,5 +1,4 @@
 import '../styles/quotes.css';
-// import Header from './Header';
 
 const Quotes = () => (
   <div>
